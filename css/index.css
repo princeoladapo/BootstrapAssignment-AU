@@ -1,0 +1,30 @@
+.home{
+    color: white;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+
+.form{
+    width: 90%;
+    margin: 5%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 10vh;
+    width: 100%;
+}

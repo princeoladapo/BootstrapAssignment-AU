@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Horizon</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <nav class="navbar fixed-top bg-secondary bg-body-tertiary">
+        <div class="container-fluid">
+          <h1 class="navbar-brand home">HOME</h1>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <!-- Corousel -->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner" style="margin-top: 10%; margin-left: 15%;">
+          <div class="carousel-item active">
+            <img src="./images/slide1.jpg" class="d-block w-70" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/slide2.jpg" class="d-block w-70" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/slide3.jpg" class="d-block w-70" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/slide4.jpg" class="d-block w-70" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev w-50" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next w-50" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="welcome">
+        <h1>Welcome To My Site</h1>
+      </div>
+
+
+
+      <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="./images/slide1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Plant blight is a common disease. Remember the potato famine in the 1840’s? As a result of the blight, one million people died. But other than potatoes, blight also affects other plants, particularly tomatoes .spores can cover large areas and rapidly spread the infection.</p>
+            </div>
+          </div>
+    
+          <div class="card" style="width: 18rem;">
+            <img src="./images/slide2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Canker is often identified by an open wound that has been infected by fungal or bacterial pathogens. Some cankers are not serious while others can be lethal. Canker occurs primarily on woody landscape plants. Cankers can girdle branches, and kill foliage. Cankers are most common on stressed plants that have been weakened by cold, insects, drought conditions, nutritional imbalances or root rot.</p>
+            </div>
+          </div>
+    
+          <div class="card" style="width: 18rem;">
+            <img src="./images/slide3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Powdery mildew is a fungal disease that affects many of our landscape plants, flowers, vegetables and fruits. Powdery mildew is an easy one to identify.</p>
+            </div>
+          </div>
+      </div>
+
+
+<!-- FORMS -->
+      <form class="row g-3 needs-validation form" novalidate>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationTooltip01" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationTooltip02" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltipUsername" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+            <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+            <div class="invalid-tooltip">
+              Please choose a unique and valid username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 position-relative">
+          <label for="validationTooltip03" class="form-label">City</label>
+          <input type="text" class="form-control" id="validationTooltip03" required>
+          <div class="invalid-tooltip">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip04" class="form-label">State</label>
+          <select class="form-select" id="validationTooltip04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+          </select>
+          <div class="invalid-tooltip">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip05" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="validationTooltip05" required>
+          <div class="invalid-tooltip">
+            Please provide a valid zip.
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-secondary" type="submit">Submit form</button>
+        </div>
+      </form>
+
+
+      <div class="footer bg-secondary">
+        <h3>Ojeleye Oladapo Owolewa</h3>
+        <h3>23/0528</h3>
+        <h3>Computer Science</h3>
+      </div>
+
+<script src="./bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
